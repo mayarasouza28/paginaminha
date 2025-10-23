@@ -10,11 +10,16 @@ html, p{
     color: #fbeee6;
     text-align: left;
 }
+html, h6{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: #70baef;
+}
 header{
   margin: 0;
     padding:0;
-    justify-content:center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     text-align: center;
     width: 100%;
     color: #fbeee6;
@@ -73,8 +78,8 @@ header nav ul li a:hover {
   line-height: 1.5;
 }
 .conteudo-filme iframe {
-    width: 360px;
-    height: 315px;
+    width: 560px;
+    height: 415px;
     border-radius: 10px;
     transition: transform 0.3s;
 }
@@ -109,7 +114,7 @@ main {
   padding: 30px 20px;
   border-radius: 10px;
   margin-bottom: 40px;
-  text-align: center; /* centraliza o título */
+  text-align: center;
 }
 #livro h3 {
   color: #fbeee6;
@@ -119,15 +124,15 @@ main {
 .conteudo-livro {
   display: flex;
   flex-direction: row;
-  align-items: center; /* centraliza verticalmente imagem e texto */
-  justify-content: center; /* centraliza tudo no centro da seção */
-  gap: 30px; /* espaço entre imagem e texto */
+  align-items: center; 
+  justify-content: center; 
+  gap: 30px;
   color: #fbeee6;
   border-radius: 10px;
 }
 .conteudo-livro img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s;
@@ -136,7 +141,7 @@ main {
   transform: scale(1.1);
 }
 .conteudo-livro p {
-  max-width: 500px; /* impede o texto de ficar muito largo */
+  max-width: 500px;
   text-align: left;
   line-height: 1.5;
 }
