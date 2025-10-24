@@ -5,15 +5,15 @@ html, body {
   background-attachment: fixed;
 }
 html, p{
-    font-size: 116%;
+    font-size: 109%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #fbeee6;
-    text-align: left;
+    text-align: center;
 }
 html, h6{
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  color: #70baef;
+  color: #244257;
 }
 header{
   margin: 0;
@@ -154,4 +154,35 @@ main {
     color: #fbeee6;
     background-color: #032f58;
     border-radius: 10px;
+}
+img:hover{
+    transform:scale(1.1);
+}
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 60%;
+}
+.social-links {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 20px;
+    }
+    .social-links a {
+      color: #b5c4d4;
+      font-size: 2em;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      transform: scale(1.2);
+      color: #11044b
+    }
+    footer {
+    color: #a7cbf1;
+    text-align: center; 
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-top: 40px;
 }
